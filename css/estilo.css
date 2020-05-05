@@ -1,0 +1,182 @@
+@charset "utf-8";
+body{
+	background-image: url("../images/Hotel_Jam.jpg");
+	background-repeat: no-repeat;
+	width: 1920px;
+	height: 1000;
+	position: absolute;
+}
+.contenedor{
+	width: 1840px;
+	height: 140px;
+}
+.encabezado{
+	background:rgb(98, 98, 98);
+	overflow: hidden;
+	box-shadow: 0 0 20px 0 #070707;
+	opacity: 0.9;
+	
+	}
+.encabezado nav{
+	float: right;
+  
+}
+.encabezado nav ul{
+	margin-bottom: auto;
+	padding: 10px;
+	list-style: none;
+}
+.encabezado nav ul li{
+	display: inline-block;
+	margin-right: -20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+}
+.encabezado nav ul li a{
+	display: block;
+	color: #fff;
+	padding: 30px;
+	margin-right: 0px;
+	border-right: 2px solid #696969;
+	text-decoration: none;
+	font-size: 28px;
+}
+
+.encabezado nav ul li a:hover{
+    color: coral;
+}
+#caja{
+	width: 700px;
+	height: 90px;
+	background-color: rgba(52, 52, 52, 0.702);
+	float: left;
+	position: relative;
+	left: auto;
+	top: 620px;
+}
+#contenido{
+    color: #fff;
+    font-size: 50;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    line-height: 0.7em;
+    padding-top: 0px; 
+}
+#contenido h1{
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.imagenes{
+	width: 1840px;
+      height: 0px;
+	box-sizing: border-box;
+}
+.imagenes img{
+	width: 30%;
+	float: left;
+	padding-top: 160px;
+	padding-left: 10px
+}
+
+.texto{
+	display: table-cell;
+	padding: 0 1px 1px;
+}
+.texto p{
+	width: 290px;
+	height: 0px;
+	display: inline-block;
+	float: left;
+	font-size: 27px;
+	padding-top: 160px;
+	padding-left: 20px;
+	
+}
+.suscripcion{
+	width: 100%;
+	height: 20px;
+	overflow: hidden;
+	background: #444444;
+	padding: 40px ;
+	margin-top: 285px;
+}
+.suscripcion form{
+	float:left;
+	position: relative;
+	top: 6px;
+	padding-bottom: 10px;
+}
+.suscripcion form input{
+	border: 2px solid #cccccc;
+	padding: 6px;
+}
+
+.suscripcion form input[type="submit"]{
+	background: #186C03;
+	color: #fff;
+	border: 1px solid #22314d;
+	padding: 10px;
+	text-shadow: 1px 1px 0 #000;
+	box-shadow: 0 -1px 0px 0 #93badc inset;
+}
+suscripcion form input[type="submit"]:hover{
+	background: #21bc4e;
+
+}
+
+.social{
+	display: inline-block;
+	float:right;
+	display: inline-block;
+	text-align: center;
+	width: 15%;
+	margin: 0 -4px 0 0;
+	padding: 0px;
+}
+
+.acceso-rapido{
+	width: 1920px;
+	height: 1000;
+	padding-top: 160px;
+}
+
+.acceso-rapido h2{
+	color: #fff;
+	font-size: 1.875em;
+	text-shadow:1px 1px 0 #000;
+	text-align: center;
+	border-bottom: 3px solid #1D1B1B;
+	padding-bottom: 36px;
+
+}
+.acceso-rapido  figure{
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	margin: 0 -4px 0 0;
+	padding: 0px;
+	border-style: 10px #000;
+	transform:scale(0.9);
+}
+.acceso-rapido img:hover{
+	transform:scale(0.9);
+}
+
+.acceso-rapido  h3{
+	font-size: 2.1875em; /*35px*/
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.acceso-rapido  h3 a{
+	color: #fff;
+	text-shadow:1px 1px 0 #000;
+	font-weight: normal;
+}
+.acceso-rapido  h3 a:hover{
+	color: chartreuse;
+	
+}
+
+
+
